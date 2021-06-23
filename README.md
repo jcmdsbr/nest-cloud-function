@@ -1,16 +1,16 @@
-# [GCP]  Cloud functions using nodejs + nestjs
+# [GCP]  Cloud functions using nodejs + nestjs :sunglasses:
 
 - Node Cloud Functions using Nest standalone application is a wrapper around the Nest IoC container
 
-## Standalone applications
+## Standalone applications :star:
 
 There are several ways of mounting a Nest application. You can create a web app, a microservice or just a bare Nest standalone application (without any network listeners). The Nest standalone application is a wrapper around the Nest IoC container, which holds all instantiated classes. 
 We can obtain a reference to any existing instance from within any imported module directly using the standalone application object. 
 Thus, you can take advantage of the Nest framework anywhere, including, for example, scripted CRON jobs. You can even build a CLI on top of it.
 
-## Getting started
+## Getting started :exclamation:
 
-### Before
+### Before :heavy_check_mark:
 
 - Install firebase-tools
 
@@ -18,14 +18,14 @@ Thus, you can take advantage of the Nest framework anywhere, including, for exam
 npm i -g firebase-tools
 ```
 
-## Init firebase function strucure
+## Init firebase function strucure :heavy_check_mark:
 
 ```sh
 firebase init functions
 firebase init emulators
 ```
 
-### Add Nest to the Functions Source
+### Add Nest to the Functions Source :heavy_check_mark:
 
 
 In functions folder
@@ -80,7 +80,7 @@ And add new configuration from tsconfig.json
 }
 ```
 
-## Deploy
+## Deploy :heavy_check_mark:
 
 ```sh
 firebase login
